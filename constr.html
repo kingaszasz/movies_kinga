@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        class Actor {
+            constructor(name, birthCountry, birthDate) {
+                this.name = name;
+                this.birthCountry = birthCountry;
+                this.birthDate = birthDate;
+            }
+
+            getAge() {
+                const now = new Date();
+                const age = now - Date.parse(this.birthDate);
+                return age / 1000 / 60 / 60 / 24 / 365;
+            }
+
+            setName(name) {
+                this.name = name;
+            }
+        }
+
+        class ChildActor extends Actor {
+            constructor(name, birthCountry, birthDate, moviesCount) {
+                super(name, birthCountry, birthDate);
+                this.moviesCount = moviesCount;
+            }
+        }
+
+        let nicolasCage = new Actor('Nicolas Cage', 'Ohio', '1976-10-20');
+        let travolta = new Actor('John Travolta', 'New York', '1977-10-20');
+        console.log(nicolasCage);
+        console.log(nicolasCage.getAge());
+        console.log(nicolasCage.setName('John Travolta'));
+
+
+        let childA = new ChildActor('Chulchin', 'New York', '2000-02-03', '41');
+        console.log(childA);
+        console.log(childA.getAge());
+    </script>
+</body>
+
+</html>

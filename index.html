@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        "use strict";
+        let title = "Apád, vagy, ... Anyád?";
+        /*
+                title = title.toLocaleLowerCase();
+                let mitMire = {
+                    mit: [':', '*', '+', ';', '.', ',', '?', '!', '...', 'á', 'é', 'í', 'ó', 'ö', 'ő', 'ú', 'ü', 'ű', ' ',
+                        '--'
+                    ],
+                    mire: ['', '', '', '', '', '', '', '', '', 'a', 'e', 'i', 'o', 'o', 'o', 'u', 'u', 'u', '-', '-'],
+                };
+
+                for (var i = 0; i < mitMire.mit.length; i++) {
+                    console.log(mitMire.mit[i]);
+                    while (title.includes(mitMire.mit[i])) {
+                        title = title.replace(mitMire.mit[i], mitMire.mire[i]);
+                    }
+                };
+
+                console.log(title);
+    
+*/
+
+
+        function removesShit(str) {
+            const hunChar = {
+                á: 'a',
+                é: 'e',
+                í: 'i',
+                ó: 'o',
+                ö: 'o',
+                ő: 'o',
+                ú: 'u',
+                ü: 'u',
+                ű: 'u',
+            }
+            str = str.toLocaleLowerCase();
+            str = str.replace(/[\?:;,\.\+\*_]/g, ''); // [\?:;,\.\+\*_] kicsréli semmire globálisan
+            str = str.replace(/[áéíóöőúüű]/g, c => hunChar[c]); //
+            str = str.replace(/ +/g, '-'); //a szóközt egyszer v többször ha előfordul kicserélem kötőjelre
+
+            return str;
+        }
+
+        title = removesShit(title);
+        console.log(title);
+    </script>
+</body>
+
+</html>

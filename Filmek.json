@@ -1,0 +1,807 @@
+//Miro
+{
+    "movies": [{
+            "title": "Fight Club",
+            "timeInMinutes": 139,
+            "premierYear": 1999,
+            "categories": ["Drama"],
+            "directors": ["David Fincher"],
+            "cast": [{
+                    "name": "Brad Pitt",
+                    "characterName": "Tyler Durden",
+                    "birthCountry": "USA",
+                    "birthCity": "Oklahoma",
+                    "birthYear": 1963
+                },
+                {
+                    "name": "Edward Norton",
+                    "characterName": "Tyler Durden",
+                    "birthCountry": "USA",
+                    "birthCity": "Massachusetts",
+                    "birthYear": 1969
+                }
+            ]
+        },
+        {
+            "title": "The Departed",
+            "timeInMinutes": 151,
+            "premierYear": 2006,
+            "categories": ["Mystery", "Thriller"],
+            "directors": ["Martin Scorsese"],
+            "cast": [{
+                    "name": "Leonardo DiCaprio",
+                    "characterName": "Billy",
+                    "birthCountry": "USA",
+                    "birthCity": "California",
+                    "birthYear": 1974
+                },
+                {
+                    "name": "Matt Damon",
+                    "characterName": "Colin Sullivan",
+                    "birthCountry": "USA",
+                    "birthCity": "Massachusetts",
+                    "birthYear": 1970
+                }
+            ]
+        },
+        {
+            "title": "Shutter Island",
+            "timeInMinutes": 138,
+            "premierYear": 2010,
+            "categories": ["Drama", "Crime"],
+            "directors": ["Martin Scorsese"],
+            "cast": [{
+                    "name": "Leonardo DiCaprio",
+                    "characterName": "Teddy Daniels",
+                    "birthCountry": "USA",
+                    "birthCity": "California",
+                    "birthYear": 1974
+                },
+                {
+                    "name": "Mark Ruffalo",
+                    "characterName": "Chuck Aule",
+                    "birthCountry": "USA",
+                    "birthCity": "Wisconsin",
+                    "birthYear": 1967
+                }
+            ]
+        },
+        {
+            "title": "Catch Me If You Can",
+            "timeInMinutes": 141,
+            "premierYear": 2003,
+            "categories": ["Drama", "Crime"],
+            "directors": ["Steven Spielberg"],
+            "cast": [{
+                    "name": "Leonardo DiCaprio",
+                    "characterName": "Frank Abagnale Jr.",
+                    "birthCountry": "USA",
+                    "birthCity": "California",
+                    "birthYear": 1974
+                },
+                {
+                    "name": "Tom Hanks",
+                    "characterName": "Carl Hanratty",
+                    "birthCountry": "USA",
+                    "birthCity": "California",
+                    "birthYear": 1956
+                }
+            ]
+        },
+        {
+            "title": "Lord of War",
+            "timeInMinutes": 122,
+            "premierYear": 2005,
+            "categories": ["Drama", "Crime"],
+            "directors": ["Andrew Niccol"],
+            "cast": [{
+                    "name": "Nicolas Cage",
+                    "characterName": "Yuri Orlov",
+                    "birthCountry": "USA",
+                    "birthCity": "California",
+                    "birthYear": 1964
+                },
+                {
+                    "name": "Bridget Moynahan",
+                    "characterName": "Ava Fontaine",
+                    "birthCountry": "USA",
+                    "birthCity": "New York",
+                    "birthYear": 1971
+                }
+            ]
+        },
+        //B. Peti
+        {
+            "title": "The Room",
+            "timeInMinutes": 99,
+            "premierYear": 2003,
+            "categories": ["Drama"],
+            "directors": ["Tommy Wiseau"],
+            "cast": [{
+                    "name": "Tommy Wiseau",
+                    "characterName": "Johnny",
+                    "birthCountry": "Poland",
+                    "birthCity": "Poznań",
+                    "birthYear": 1955
+                },
+                {
+                    "name": "Greg Sestero",
+                    "characterName": "Mark",
+                    "birthCountry": "USA",
+                    "birthCity": "Walnut Creek",
+                    "birthYear": 1978
+                }
+            ]
+        },
+        {
+            "title": "Kingdom of Heaven",
+            "timeInMinutes": 194,
+            "premierYear": 2005,
+            "categories": ["Action", "Adventure", "Drama"],
+            "directors": ["Ridley Scott"],
+            "cast": [{
+                    "name": "Orlando Bloom",
+                    "characterName": "Balian de Ibelin",
+                    "birthCountry": "United Kingdom",
+                    "birthCity": "Canterbury",
+                    "birthYear": 1977
+                },
+                {
+                    "name": "Eva Green",
+                    "characterName": "Sibylla",
+                    "birthCountry": "France",
+                    "birthCity": "Paris",
+                    "birthYear": 1980
+                }
+            ]
+        },
+        {
+            "title": "La La Land",
+            "timeInMinutes": 128,
+            "premierYear": 2016,
+            "categories": ["Comedy", "Drama", "Music"],
+            "directors": ["Damien Chazelle"],
+            "cast": [{
+                    "name": "Ryan Gosling",
+                    "characterName": "Sebastian",
+                    "birthCountry": "Canada",
+                    "birthCity": "London",
+                    "birthYear": 1980
+                },
+                {
+                    "name": "Emma Stone",
+                    "characterName": "Mia",
+                    "birthCountry": "USA",
+                    "birthCity": "Scottsdale",
+                    "birthYear": 1988
+                }
+            ]
+        },
+        {
+            "title": "Filth",
+            "timeInMinutes": 97,
+            "premierYear": 2013,
+            "categories": ["Comedy", "Drama", "Crime"],
+            "directors": ["Jon S. Baird"],
+            "cast": [{
+                    "name": "James McAvoy",
+                    "characterName": "Bruce",
+                    "birthCountry": "United Kingdom",
+                    "birthCity": "Glasgow",
+                    "birthYear": 1979
+                },
+                {
+                    "name": "Jamie Bell",
+                    "characterName": "Lennox",
+                    "birthCountry": "United Kingdom",
+                    "birthCity": "Billingham",
+                    "birthYear": 1986
+                }
+            ]
+        },
+        {
+            "title": "Trainspotting",
+            "timeInMinutes": 95,
+            "premierYear": 1996,
+            "categories": ["Drama"],
+            "directors": ["Danny Boyle"],
+            "cast": [{
+                    "name": "Ewan McGregor",
+                    "characterName": "Renton",
+                    "birthCountry": "United Kingdom",
+                    "birthCity": "Perth",
+                    "birthYear": 1971
+                },
+                {
+                    "name": "Ewen Bremner",
+                    "characterName": "Spud",
+                    "birthCountry": "United Kingdom",
+                    "birthCity": "Portobello",
+                    "birthYear": 1972
+                }
+            ]
+        },
+        // Balázs
+        {
+            "title": "Police Academy",
+            "timeInMinutes": 96,
+            "premierYear": 1984,
+            "categories": ["Comedy"],
+            "directors": ["Hugh Wilson"],
+            "cast": [{
+                    "name": "Steve Guttenberg",
+                    "characterName": "Carey Mahoney",
+                    "birthCountry": "USA",
+                    "birthCity": "New York",
+                    "birthYear": 1958
+                },
+                {
+                    "name": "Kim Cattrall",
+                    "characterName": "Karen Thompson",
+                    "birthCountry": "England",
+                    "birthCity": "Liverpool",
+                    "birthYear": 1956
+                },
+                {
+                    "name": "G.W. Bailey",
+                    "characterName": "Lt. Harris",
+                    "birthCountry": "USA",
+                    "birthCity": "Port Arthur",
+                    "birthYear": 1944
+                }
+            ]
+        }, {
+            "title": "Police Academy 2",
+            "timeInMinutes": 87,
+            "premierYear": 1985,
+            "categories": ["Comedy"],
+            "directors": [" Jerry Paris", "James Signorelli"],
+            "cast": [{
+                    "name": "Steve Guttenberg",
+                    "characterName": "Carey Mahoney",
+                    "birthCountry": "USA",
+                    "birthCity": "New York",
+                    "birthYear": 1958
+                },
+                {
+                    "name": "Bubba Smith",
+                    "characterName": "Moses Hightower",
+                    "birthCountry": "USA",
+                    "birthCity": "Orange",
+                    "birthYear": 1945
+                },
+                {
+                    "name": "David Graf",
+                    "characterName": "Tackleberry",
+                    "birthCountry": "USA",
+                    "birthCity": "Lancaster",
+                    "birthYear": 1950
+                }
+            ]
+        }, {
+            "title": "Police Academy 3",
+            "timeInMinutes": 83,
+            "premierYear": 1986,
+            "categories": ["Comdedy"],
+            "directors": ["Jerry Paris"],
+            "cast": [{
+                    "name": "Steve Guttenberg",
+                    "characterName": "Carey Mahoney",
+                    "birthCountry": "USA",
+                    "birthCity": "New York",
+                    "birthYear": 1958
+                },
+                {
+                    "name": "Bubba Smith",
+                    "characterName": "Moses Hightower",
+                    "birthCountry": "USA",
+                    "birthCity": "Orange",
+                    "birthYear": 1945
+                },
+                {
+                    "name": "David Graf",
+                    "characterName": "Tackleberry",
+                    "birthCountry": "USA",
+                    "birthCity": "Lancaster",
+                    "birthYear": 1950
+                }
+            ]
+        }, {
+            "title": "Police Academy 4",
+            "timeInMinutes": 88,
+            "premierYear": 1987,
+            "categories": ["Comedy", "Crime"],
+            "directors": ["Jim Drake"],
+            "cast": [{
+                    "name": "Steve Guttenberg",
+                    "characterName": "Carey Mahoney",
+                    "birthCountry": "USA",
+                    "birthCity": "New York",
+                    "birthYear": 1958
+                },
+                {
+                    "name": "Bubba Smith",
+                    "characterName": "Moses Hightower",
+                    "birthCountry": "USA",
+                    "birthCity": "Orange",
+                    "birthYear": 1945
+                },
+                {
+                    "name": "Michael Winslow",
+                    "characterName": "Sgt. Jones",
+                    "birthCountry": "USA",
+                    "birthCity": "Spokane",
+                    "birthYear": 1958
+                }
+            ]
+        }, {
+            "title": "Police Academy 5",
+            "timeInMinutes": 90,
+            "premierYear": 1988,
+            "categories": ["Comdedy", "Crime"],
+            "directors": ["Alan Myerson"],
+            "cast": [{
+                    "name": "Bubba Smith",
+                    "characterName": "Moses Hightower",
+                    "birthCountry": "USA",
+                    "birthCity": "Orange",
+                    "birthYear": 1945
+                },
+                {
+                    "name": "David Graf",
+                    "characterName": "Tackleberry",
+                    "birthCountry": "USA",
+                    "birthCity": "Lancaster",
+                    "birthYear": 1950
+                },
+                {
+                    "name": "Michael Winslow",
+                    "characterName": "Sgt. Jones",
+                    "birthCountry": "USA",
+                    "birthCity": "Spokane",
+                    "birthYear": 1958
+                }
+            ]
+        },
+        // Réka
+        {
+            "title": "Beverly Hills Chihuahua",
+            "timeInMinutes": 91,
+            "premierYear": 2008,
+            "categories": ["Adventure", "Comedy", "Drama"],
+            "directors": ["Raja Gosnell"],
+            "cast": [{
+                    "name": "Piper Perabo",
+                    "characterName": "Rachel",
+                    "birthCountry": "Texas",
+                    "birthCity": "Dallas",
+                    "birthYear": 1976
+                },
+                {
+                    "name": "Manolo Cardona",
+                    "characterName": "Sam Cortez",
+                    "birthCountry": "Colombia",
+                    "birthCity": "Popayan",
+                    "birthYear": 1977
+                },
+                {
+                    "name": "Jamie Lee Curtis",
+                    "characterName": "Aunt Viv",
+                    "birthCountry": "California",
+                    "birthCity": "Los Angeles",
+                    "birthYear": 1958
+                }
+            ]
+
+        }, {
+            "title": "Two Night Stand",
+            "timeInMinutes": 86,
+            "premierYear": 2014,
+            "categories": ["Romance", "Comedy"],
+            "directors": [" Max Nichols"],
+            "cast": [{
+                    "name": "Analeigh Tipton",
+                    "characterName": "Megan",
+                    "birthCountry": "Minnesota",
+                    "birthCity": "Minneapolis",
+                    "birthYear": 1988
+                },
+                {
+                    "name": "Miles Teller",
+                    "characterName": "Alec",
+                    "birthCountry": "Pennsylvania",
+                    "birthCity": "Downingtown",
+                    "birthYear": 1987
+                }
+            ]
+
+        }, {
+            "title": "How to Be Single",
+            "timeInMinutes": 110,
+            "premierYear": 2016,
+            "categories": ["Romance", "Comedy"],
+            "directors": ["Christian Ditter"],
+            "cast": [{
+                    "name": "Dakota Johnson",
+                    "characterName": "Alice",
+                    "birthCountry": "Texas",
+                    "birthCity": "Austin",
+                    "birthYear": 1989
+                },
+                {
+                    "name": "Rebel Wilson",
+                    "characterName": "Robin",
+                    "birthCountry": "New South Wales",
+                    "birthCity": "Sydney",
+                    "birthYear": 1980
+                }
+            ]
+
+        }, {
+            "title": "The Wolf of Wall Street",
+            "timeInMinutes": 180,
+            "premierYear": 2013,
+            "categories": ["Biography", "Comedy", "Crime"],
+            "directors": ["Martin Scorsese"],
+            "cast": [{
+                    "name": "Leonardo DiCaprio",
+                    "characterName": "Jordan Belfort",
+                    "birthCountry": "California",
+                    "birthCity": "Los Angeles",
+                    "birthYear": 1974
+                },
+                {
+                    "name": "Jonah Hill",
+                    "characterName": "Donnie Azoff",
+                    "birthCountry": "California",
+                    "birthCity": "Los Angeles",
+                    "birthYear": 1983
+                },
+                {
+                    "name": "Margot Robbie",
+                    "characterName": "Naomi Lapaglia",
+                    "birthCountry": "Queensland",
+                    "birthCity": "Dalby",
+                    "birthYear": 1990
+                },
+                {
+                    "name": "Matthew McConaughey",
+                    "characterName": "Mark Hanna",
+                    "birthCountry": "Texas",
+                    "birthCity": "Uvalde",
+                    "birthYear": 1969
+                }
+            ]
+
+        },
+        {
+            "title": "Shrek",
+            "timeInMinutes": 90,
+            "premierYear": 2001,
+            "categories": ["Animation", "Adventure", "Comedy"],
+            "directors": ["Andrew Adamson", "Vicky Jenson"],
+            "cast": [{
+                    "name": "Mike Myers",
+                    "characterName": "Shrek",
+                    "birthCountry": "Texas",
+                    "birthCity": "Dallas",
+                    "birthYear": 1976
+                },
+                {
+                    "name": "Eddie Murphy",
+                    "characterName": "Donkey",
+                    "birthCountry": "Colombia",
+                    "birthCity": "Popayan",
+                    "birthYear": 1977
+                },
+                {
+                    "name": "Cameron Diaz",
+                    "characterName": "Princess Fiona",
+                    "birthCountry": "California",
+                    "birthCity": "Los Angeles",
+                    "birthYear": 1958
+                }
+            ]
+
+        },
+        //Péti
+        {
+            "title": "Django Unchained",
+            "timeInMinutes": "165",
+            "premierYear": "2012",
+            "categories": ["Drama", "Western"],
+            "directors": ["Quentin Tarantino"],
+            "cast": [{
+                    "name": "Jamie Foxx",
+                    "characterName": "Django",
+                    "birthCountry": "USA",
+                    "birthCity": "Terrell",
+                    "birthYear": "1967"
+                },
+                {
+                    "name": "Christoph Waltz",
+                    "characterName": "Dr. King Schultz",
+                    "birthCountry": "Austria",
+                    "birthCity": "Vienna",
+                    "birthYear": "1956"
+                },
+                {
+                    "name": "Leonardo di Caprio",
+                    "characterName": "Calvi Candie",
+                    "birthCountry": "USA",
+                    "birthCity": "Hollywood",
+                    "birthYear": "1974"
+                }
+            ]
+        },
+        {
+            "title": "Gran Torino",
+            "timeInMinutes": "116",
+            "premierYear": "2008",
+            "categories": ["Drama"],
+            "directors": ["Clint Eastwood"],
+            "cast": [{
+                    "name": "Clint Eastwood",
+                    "characterName": "Walt Kowalski",
+                    "birthCountry": "USA",
+                    "birthCity": "San Francisco",
+                    "birthYear": "1930"
+                },
+                {
+                    "name": "John Carroll Lynch",
+                    "characterName": "Barber Martin",
+                    "birthCountry": "USA",
+                    "birthCity": "Boulder",
+                    "birthYear": "1963"
+                },
+                {
+                    "name": "Bee Vang",
+                    "characterName": "Thao",
+                    "birthCountry": "USA",
+                    "birthCity": "Fresno",
+                    "birthYear": "1991"
+                }
+            ]
+
+        },
+        {
+            "title": "The Man Who Wasn't There",
+            "timeInMinutes": "116",
+            "premierYear": "2001",
+            "categories": ["Crime", "Drama"],
+            "directors": ["Joel Coen", "Ethan Coen"],
+            "cast": [{
+                    "name": "Billy Bob Thorton",
+                    "characterName": "Ed Crane",
+                    "birthCountry": "USA",
+                    "birthCity": "Hot Springs",
+                    "birthYear": "1955"
+                },
+                {
+                    "name": "Frances McDormand",
+                    "characterName": "Doris Crane",
+                    "birthCountry": "USA",
+                    "birthCity": "Chicago",
+                    "birthYear": "1957"
+                },
+                {
+                    "name": "James Gandolfini",
+                    "characterName": "Big Dave Brewster",
+                    "birthCountry": "USA",
+                    "birthCity": "Westwood",
+                    "birthYear": "1961"
+                }
+            ]
+
+        },
+        {
+            "title": "Fargo",
+            "timeInMinutes": "98",
+            "premierYear": "1996",
+            "categories": ["Crime", "Drama", "Thriller"],
+            "directors": ["Joel Coen", "Ethan Coen"],
+            "cast": [{
+                    "name": "Frances McDormand",
+                    "characterName": "Mildred",
+                    "birthCountry": "USA",
+                    "birthCity": "Chicago",
+                    "birthYear": "1957"
+                },
+                {
+                    "name": "William H. Macy",
+                    "characterName": "Jerry Lundegaard",
+                    "birthCountry": "USA",
+                    "birthCity": "Miami",
+                    "birthYear": "1950"
+                },
+                {
+                    "name": "Steve Buscemi",
+                    "characterName": "Carl Showalter",
+                    "birthCountry": "USA",
+                    "birthCity": "New York",
+                    "birthYear": "1957"
+                }
+            ]
+
+        },
+        {
+            "title": "The Lincoln Lawyer",
+            "timeInMinutes": "118",
+            "premierYear": "2011",
+            "categories": ["Crime", "Drama", "Thriller)"],
+            "directors": ["Brad Furman"],
+            "cast": [{
+                    "name": "Matthew McConaughey",
+                    "characterName": "Mick Haller",
+                    "birthCountry": "USA",
+                    "birthCity": "Uvalde",
+                    "birthYear": "1969"
+                },
+                {
+                    "name": "Marisa Tomei",
+                    "characterName": "Maggie McPherson",
+                    "birthCountry": "USA",
+                    "birthCity": "New York",
+                    "birthYear": "1964"
+                },
+                {
+                    "name": "William H. Macy",
+                    "characterName": "Frank Levin",
+                    "birthCountry": "USA",
+                    "birthCity": "Miami",
+                    "birthYear": "1950"
+                }
+            ]
+
+        },
+        //Kinga
+        {
+            "title": "Keserű méz",
+            "timeInMinutes": 139,
+            "premierYear": 1992,
+            "categories": ["Drama", "Thriler"],
+            "directors": ["Roman Polański"],
+            "cast": [{
+                    "name": "Emmanuelle Seigner",
+                    "characterName": "Mimi",
+                    "birthCountry": "France",
+                    "birthCity": "Paris",
+                    "birthYear": 1966
+                },
+                {
+                    "name": "Peter Coyote",
+                    "characterName": "Oscar",
+                    "birthCountry": "USA",
+                    "birthCity": " New York",
+                    "birthYear": 1941
+                },
+                {
+                    "name": "Hugh Grant",
+                    "characterName": "Nigel",
+                    "birthCountry": "United Kingdom",
+                    "birthCity": "London",
+                    "birthYear": 1960
+                }
+            ]
+        }, {
+            "title": "Avatar",
+            "timeInMinutes": 162,
+            "premierYear": 2009,
+            "categories": ["Fantasy", "Sci-fi"],
+            "directors": ["James Cameron"],
+            "cast": [{
+                    "name": "Zoë Saldana",
+                    "characterName": "Neytiri",
+                    "birthCountry": "USA",
+                    "birthCity": "New York",
+                    "birthYear": 1978
+                },
+                {
+                    "name": "Sam Worthington",
+                    "characterName": "Jake Sully",
+                    "birthCountry": "United Kingdom",
+                    "birthCity": " Godalming",
+                    "birthYear": 1976
+                },
+                {
+                    "name": "Sigourney Weaver",
+                    "characterName": "Dr. Grace Augustine",
+                    "birthCountry": "USA",
+                    "birthCity": "New York",
+                    "birthYear": 1949.
+                },
+                {
+                    "name": "Stephen Lang",
+                    "characterName": "Quaritch ezredes",
+                    "birthCountry": "USA",
+                    "birthCity": "New York",
+                    "birthYear": 1952.
+                }
+            ]
+        }, {
+            "title": "Teljesen idegenek",
+            "timeInMinutes": 97,
+            "premierYear": 2016,
+            "categories": ["Drama", "Comedy"],
+            "directors": ["Paolo Genovese"],
+            "cast": [{
+                    "name": "Marco Giallini",
+                    "characterName": "Rocco",
+                    "birthCountry": "Italy",
+                    "birthCity": "Rome",
+                    "birthYear": 1963
+                },
+                {
+                    "name": "Anna Foglietta",
+                    "characterName": "Carlotta",
+                    "birthCountry": "Italy",
+                    "birthCity": " Rome",
+                    "birthYear": 1979
+                },
+                {
+                    "name": "Kasia Smutniak",
+                    "characterName": "Eva",
+                    "birthCountry": "Poland",
+                    "birthCity": "Piła",
+                    "birthYear": 1979.
+                }
+            ]
+        }, {
+            "title": "Csodás álmok jönnek",
+            "timeInMinutes": 114,
+            "premierYear": 1998,
+            "categories": ["Drama"],
+            "directors": ["Vincent Ward"],
+            "cast": [{
+                    "name": "Robin Williams",
+                    "characterName": "Chris Nielsen",
+                    "birthCountry": "USA",
+                    "birthCity": "Chicago",
+                    "birthYear": 1951
+                },
+                {
+                    "name": "Annabella Sciorra",
+                    "characterName": "Annie Collins‑Nielsen",
+                    "birthCountry": "USA",
+                    "birthCity": "New York",
+                    "birthYear": 1960
+                },
+                {
+                    "name": "Cuba Gooding Jr.",
+                    "characterName": "Albert Lewis",
+                    "birthCountry": "USA",
+                    "birthCity": "New York",
+                    "birthYear": 1968
+                }
+            ]
+        }, {
+            "title": "Good Will Hunting",
+            "timeInMinutes": 126,
+            "premierYear": 1997,
+            "categories": ["Drama"],
+            "directors": ["Gus Van Sant"],
+            "cast": [{
+                    "name": "Robin Williams",
+                    "characterName": "Sean Maguire",
+                    "birthCountry": "USA",
+                    "birthCity": "Chicago",
+                    "birthYear": 1951
+                },
+                {
+                    "name": "Matt Damon",
+                    "characterName": "Will Hunting",
+                    "birthCountry": "USA",
+                    "birthCity": "Cambridge",
+                    "birthYear": 1970
+                },
+                {
+                    "name": "Ben Affleck",
+                    "characterName": "Chuckie Sullivan",
+                    "birthCountry": "USA",
+                    "birthCity": "Berkeley",
+                    "birthYear": 1972
+                }
+            ]
+        }
+    ]
+}
