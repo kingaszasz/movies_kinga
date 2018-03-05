@@ -708,14 +708,14 @@
                     "characterName": "Dr. Grace Augustine",
                     "birthCountry": "USA",
                     "birthCity": "New York",
-                    "birthYear": 1949.
+                    "birthYear": 1949
                 },
                 {
                     "name": "Stephen Lang",
                     "characterName": "Quaritch ezredes",
                     "birthCountry": "USA",
                     "birthCity": "New York",
-                    "birthYear": 1952.
+                    "birthYear": 1952
                 }
             ]
         }, {
@@ -743,7 +743,7 @@
                     "characterName": "Eva",
                     "birthCountry": "Poland",
                     "birthCity": "Piła",
-                    "birthYear": 1979.
+                    "birthYear": 1979
                 }
             ]
         }, {
